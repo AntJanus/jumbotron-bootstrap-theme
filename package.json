@@ -1,0 +1,45 @@
+{
+  "title": "Bootstrap Builder Boilerplate",
+  "name": "bootstrap-builder-boilerplate",
+  "description": "Bootstrap building workspace",
+  "version": "0.0.3",
+  "author": {
+    "name": "Antonin Januska",
+    "email": ""
+  },
+  "homepage": "https://antjanus.com",
+  "bugs": "https://github.com/AntJanus/bootstrap-builder-boilerplate/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antjanus/bootstrap-builder-boilerplate.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": "0.1.x"
+  },
+  "scripts": {
+    "test": "grunt qunit"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.x",
+    "grunt-contrib-uglify": "~0.2.x",
+    "grunt-contrib-watch": "~0.5.x",
+    "grunt-contrib-less": "~0.8.x",
+    "grunt-contrib-jshint": "~0.7.x",
+    "grunt-contrib-qunit": "~0.3.x",
+    "grunt-contrib-livereload": "~0.1.x",
+    "grunt-contrib-concat": "~0.3.x",
+    "grunt-contrib-clean": "~0.5.x",
+    "grunt-contrib-imagemin": "~0.3.x",
+    "time-grunt": "~0.1.x",
+    "grunt-contrib-copy": "~0.4.x",
+    "grunt-contrib-cssmin": "~0.6.x",
+    "grunt-contrib-watch": "~0.5.x",
+    "grunt-jekyll": "~0.4.x",
+    "grunt-concurrent": "~0.4.x"
+  }
+}
