@@ -1,5 +1,5 @@
 {
-  "name": "Ludus Bootstrap Theme",
+  "name": "Jumbotron Bootstrap Theme",
   "version": "0.0.1",
   "dependencies": {
     "bootstrap": "~3.x"
