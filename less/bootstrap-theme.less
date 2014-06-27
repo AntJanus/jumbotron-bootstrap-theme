@@ -1,7 +1,14 @@
 .jumbotron {
   min-height: 400px;
-  background-position: top;
-  
+  background: no-repeat top;
+  opacity: 0.3;
+  background-size: cover;
+
+  &:hover {
+    transition: opacity 0.5s linear;
+    opacity: 1;
+  }
+
   p, h3, a, h1, h2 {
     background-color: rgba(0,0,0,.5);
     color: #efefef;
@@ -24,3 +31,8 @@
     border-bottom: 3px solid #000;
   }
 }
+
+.visible-all .jumbotron, .toggle-visibility {
+  opacity: 1;
+}
+
