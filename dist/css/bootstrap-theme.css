@@ -3,9 +3,10 @@
   background: no-repeat top;
   opacity: 0.3;
   background-size: cover;
+  transition: opacity 0.5s ease;
+  transition: height 1s ease;
 }
 .jumbotron:hover {
-  transition: opacity 0.5s ease;
   opacity: 1;
 }
 .jumbotron p,
@@ -38,6 +39,5 @@
   background-position: bottom;
 }
 .toggle-expand.jumbotron {
-  transition: height 1s ease;
   min-height: 800px;
 }
