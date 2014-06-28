@@ -31,6 +31,12 @@
   border-bottom: 3px solid #000;
 }
 .visible-all .jumbotron,
-.toggle-visibility {
+.toggle-visibility.jumbotron {
   opacity: 1;
+}
+.toggle-bottom.jumbotron {
+  background-position: bottom;
+}
+.toggle-expand.jumbotron {
+  min-height: 800px;
 }
