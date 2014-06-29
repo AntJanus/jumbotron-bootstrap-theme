@@ -3,8 +3,7 @@
   background: no-repeat top;
   opacity: 0.6;
   background-size: cover;
-  transition: opacity 0.5s ease;
-  transition: height 1s ease;
+  transition: opacity 0.5s ease, height 1s ease;
 }
 .jumbotron:hover {
   opacity: 1;
