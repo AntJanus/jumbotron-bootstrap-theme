@@ -4,6 +4,7 @@
   opacity: 0.6;
   background-size: cover;
   transition: opacity 0.5s ease, height 1s ease;
+  position: relative;
 }
 .jumbotron:hover {
   opacity: 1;
@@ -20,15 +21,25 @@
 .navbar-white {
   background-color: #fff;
 }
-.jumbotron .btn-primary {
+.btn-primary {
   border-color: #fff;
 }
-.jumbotron .btn-primary:hover {
+.btn-primary:hover {
   background: #fff;
   color: #000;
   text-shadow: 0 0 0;
-  border: 0;
   border-bottom: 3px solid #000;
+}
+.meta {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.meta .btn {
+  border: 1px solid #fff;
+}
+.meta .btn:hover {
+  background-color: #fff;
 }
 .visible-all .jumbotron,
 .toggle-visibility.jumbotron {

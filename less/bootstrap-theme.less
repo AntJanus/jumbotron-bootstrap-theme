@@ -4,6 +4,7 @@
   opacity: 0.6;
   background-size: cover;
   transition: opacity 0.5s ease, height 1s ease;
+  position: relative;
 
   &:hover {
     opacity: 1;
@@ -21,15 +22,28 @@
   background-color: #fff;
 }
 
-.jumbotron .btn-primary {
+.btn-primary {
   border-color: #fff;
 
   &:hover {
     background: #fff;
     color: #000;
     text-shadow: 0 0 0;
-    border: 0;
     border-bottom: 3px solid #000;
+  }
+}
+
+.meta {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  .btn {
+    border: 1px solid #fff;
+
+    &:hover {
+      background-color: #fff;
+    }
   }
 }
 
