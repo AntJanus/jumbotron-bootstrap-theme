@@ -52,3 +52,9 @@
 .toggle-expand.jumbotron {
   height: 800px;
 }
+.toggle-blur {
+  -webkit-filter: blur(10px);
+}
+.toggle-blur:hover {
+  -webkit-filter: blur(0);
+}
